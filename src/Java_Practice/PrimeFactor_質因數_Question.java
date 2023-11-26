@@ -1,3 +1,5 @@
+package Java_Practice;
+
 public class PrimeFactor_質因數_Question {
 
 

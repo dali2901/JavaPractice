@@ -1,9 +1,9 @@
-package Collection;
+package Collection.List;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class LinkedList_01 {
+public class LinkedList_And_ArrayList {
 
     //  LinkedList 跟 ArrayList 都實作 List Interface
 
@@ -43,7 +43,7 @@ public class LinkedList_01 {
         //但在 LinkedList中 Java 會從最開頭或最結尾開始找，如果你想拿中間的元素，他要一個一個照順序從頭或尾巴找，所以比ArrayList慢
 
         name_arrayList.add(1,"Momo");
-        // 相反地，LinkedList 比 ArrayList 快的是 add() 跟 remove()方法，add()方法時，LinkedList只要把 箭頭給指向新加入的元素的頭跟尾巴，remove()方法時只要拿掉就可以了
+        // 相反地，LinkedList 比 ArrayList 快的是 add() 跟 remove()方法，add()方法時，LinkedList只要把 箭頭指向新加入的元素的頭跟尾巴，remove()方法時只要拿掉就可以了
         // ArrayList 會創造一個新陣列
         // EX如果要新加入Momo  則  原本  {"Achi", "Djohn", "BoogEddie", "Spencer"}   -->    {"Achi", ,"      "，"Djohn", "BoogEddie", "Spencer"}
         //創造一個陣列後再加入Momo --> 則 {"Achi", ,"Momo"，"Djohn", "BoogEddie", "Spencer"}

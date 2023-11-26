@@ -1,3 +1,5 @@
+package LeetCode_JAVA;
+
 import java.util.Scanner;
 
 public class No35_Search_Insert_Position {

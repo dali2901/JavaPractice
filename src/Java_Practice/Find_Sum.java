@@ -1,9 +1,9 @@
-
+package Java_Practice;
 //1-2+3-4.....n 請寫出計算此公式的演算法
 
 import java.util.Scanner;
 
-public class findSum {
+public class Find_Sum {
 
 
     public static void main(String[] args) {

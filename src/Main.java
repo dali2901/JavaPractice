@@ -1,3 +1,6 @@
+import Algorithm.BubbleSort;
+import LeetCode_JAVA.No35_Search_Insert_Position;
+
 import java.util.Scanner;
 
 public class Main {
