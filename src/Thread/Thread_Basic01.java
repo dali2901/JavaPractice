@@ -30,8 +30,8 @@ public class Thread_Basic01 extends Thread {
 
         //如果真的要執行多重執行序不能用run方法, 而是用start方法
         //如果用run()方法 即   threadBasic01.run(); 他會執行完第一個再執行下一個, 可執行下方住解嘗試
-        //        threadBasic01.run();
-        //        threadBasic02.run();
+//                threadBasic01.run();
+//                threadBasic02.run();
 
         //        threadBasic01.start();
         //        threadBasic02.start();

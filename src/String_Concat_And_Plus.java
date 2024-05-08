@@ -14,29 +14,28 @@ public class String_Concat_And_Plus {
         String str2 = "Your Boogaloo~";
 
         System.gc();
-        long startTime01 =System.currentTimeMillis();
-        for(int i =0; i<10000; i++){
+        long startTime01 = System.currentTimeMillis();
+        for (int i = 0; i < 10000; i++) {
             str1 = str1.concat(str2);
         }
-        long endTime01 =System.currentTimeMillis();
+        long endTime01 = System.currentTimeMillis();
 
-        System.out.println( " Use Concat : " + (endTime01-startTime01) );
+        System.out.println(" Use Concat : " + (endTime01 - startTime01));
 
 
         str1 = "Show me";
 
 
         System.gc();
-        long startTime02 =System.currentTimeMillis();
-        for(int i =0; i<10000; i++){
-            str1 = str1+str2;
+        long startTime02 = System.currentTimeMillis();
+        for (int i = 0; i < 10000; i++) {
+            str1 = str1 + str2;
         }
-        long endTime02 =System.currentTimeMillis();
+        long endTime02 = System.currentTimeMillis();
 
-        System.out.println( " Use + : " + (endTime02-startTime02) );
+        System.out.println(" Use + : " + (endTime02 - startTime02));
 
     }
-
 
 
 }
